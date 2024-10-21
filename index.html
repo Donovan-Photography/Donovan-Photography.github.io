@@ -3,55 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the Dungeon</title>
+    <title>Home</title>
     <style>
         body {
-            background-color: #2f3640;
-            color: #f5f6fa;
-            font-family: 'Georgia', serif;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
             text-align: center;
-            padding-top: 50px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #f1c40f;
         }
         h1 {
-            font-size: 60px;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 80%;
-            height: auto;
-            margin: 20px 0;
-        }
-        a {
-            display: inline-block;
+            text-align: center;
             margin-top: 20px;
-            color: white;
-            background-color: #e84118;
-            font-size: 22px;
-            text-decoration: none;
-            padding: 12px 30px;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        a:hover {
-            background-color: #c23616;
         }
         p {
-            font-size: 20px;
-            margin: 15px 0;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
 
-<h1>Choose a Path</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="glitched.html">Glitched Images</a>
+        <a href="meme-mashup.html">Meme Mashup</a>
+        <a href="minecraft-art.html">Minecraft Art</a>
+        <a href="dungeon.html">Net Art</a>
+    </nav>
 
-<img src="dungeon.jpg" alt="Choose Your Path">
+    <h1>Donovan's Portfolio</h1>
+    <p>Welcome to my portfolio page! I hope you enjoy the work I have done.</p>
 
-<p>Will you brave the unknown through the doors of this ancient dungeon?</p>
-
-<a href="haunted hall.html">Open the Right Door</a>
-<p>or</p>
-<a href="left.html">Open the Left Door</a>
+    <div class="gallery">
+        <img src="busride.jpg" alt="bus ride in SF">
+        <img src="fence.jpg" alt="close up fence">
+        <img src="silhouette.jpg" alt="silhouette portrait">
+        <img src="greenmoss.jpg" alt="close up moss">
+        <img src="road.jpg" alt="road in a park">
+        <img src="retro.jpg" alt="retro view">
+        <img src="portrait.jpg" alt="taken of my girlfriend">
+        <img src="bluedevils.jpg" alt="picture of the blue devils">
+        <img src="bluesky.jpg" alt="picture of the sky">
+    </div>
 
 </body>
 </html>
