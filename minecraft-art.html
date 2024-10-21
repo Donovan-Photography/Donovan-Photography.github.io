@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #f1c40f;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column; /* Stack images vertically */
+            align-items: center;    /* Center the images */
+            gap: 30px;              /* Space between the images */
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 600px;        /* Increased image width */
+            border-radius: 15px;     /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="glitched.html">Glitched Images</a>
+        <a href="meme-mashup.html">Meme Mashup</a>
+        <a href="minecraft-art.html">Minecraft Art</a>
+        <a href="dungeon.html">Net Art</a>
+    </nav>
+
+    <h1>Minecraft Art</h1>
+    <p>Art I had created in a Minecraft server my art professor made for the class.</p>
+    
+    <div class="image-container">
+        <img src="triforce-screenshot.jpg" class="img-fluid rounded" alt="minecraft screenshot">
+        <img src="triforce.jpg" class="img-fluid rounded" alt="print screenshot">
+    </div>
+
+</body>
+</html>
